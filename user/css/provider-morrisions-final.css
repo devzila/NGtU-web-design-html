@@ -1,0 +1,197 @@
+.provider-banner{
+	background:url(../images/img-provider-banner.jpg) no-repeat 0 0;
+	background-size:cover;
+	height:360px;
+}
+
+.provider-banner .container{
+	position:relative;
+	height:100%;
+}
+
+.logo-holder{
+	width:225px;
+	height:225px;
+	line-height:225px;
+	text-align:center;
+	background:#fff;
+	border-radius:100%;
+	position:absolute;
+	top:50%;
+	transform:translateY(-50%);
+	left:20px;
+}
+
+.provider-navigation{
+	background:#07533d;
+	padding:5px 0;
+}
+
+.provider-navigation .navbar.navbar-expand-lg{
+	padding-top:0;
+}
+
+.provider-navigation .navbar-expand-lg .navbar-nav .nav-link{
+	border-bottom:solid 3px transparent;
+	transition:none;
+	padding:7px 0;
+	margin:0 25px 0 0;
+}
+
+.provider-navigation .navbar-expand-lg .navbar-nav .nav-link:hover, .provider-navigation .navbar-expand-lg .navbar-nav .active .nav-link{
+	border-bottom:solid 3px #fff;
+}
+
+.provider-morrisons-page .breadcrumb{
+	background:#f5f5f5;
+	padding:10px;
+	margin:0;
+}
+
+.provider-morrisons-page .breadcrumb a{
+	color:#07533d;
+}
+
+.provider-morrisons-page h2{
+	margin:15px 0;
+	font-size:30px;
+	font-weight:700;
+	font-family: 'Muli', sans-serif;
+}
+
+.main-section{
+	padding-bottom:45px;
+}
+
+.main-section p{
+	font-size:16px;
+	margin-bottom:25px;
+}
+
+.main-section p a{
+	color:#07533d;
+}
+
+.main-section p b{
+	color:#07533d;
+}
+
+.main-section .tags{
+	margin-top:20px;
+}
+
+.main-section .tag{
+	display:inline-block;
+	margin-bottom:5px;
+}
+
+.main-image{
+	margin-top:30px;
+	text-align:center;
+}
+
+.main-buttons .btn{
+	width:215px;
+	background:#07533d;
+}
+
+.main-buttons .btn + .btn{
+	margin-left:25px;
+}
+	
+.case-studies{
+	padding:25px;
+	background:#f5f5f5;
+	margin-bottom:30px;
+}
+
+.case-studies h2{
+	margin:0;
+	font-weight:400;
+}
+
+#case-studies{
+	margin-top:40px;
+}
+
+.case-image{
+	float:left;
+	width:220px;
+	height:220px;
+}
+
+.case-image img{
+	width:220px;
+	height:220px;
+	border-radius:100%;
+}
+
+.case-content{
+	overflow:hidden;
+	padding-left:50px;
+	font-size:16px;
+}
+
+.case-content h3{
+	font-size:18px;
+	font-weight:700;
+	color:#07533d;
+}
+
+#case-studies.owl-theme .owl-dots .owl-dot.active span, #case-studies.owl-theme .owl-dots .owl-dot:hover span{
+	background:#07533d;
+}
+
+#case-studies.owl-theme .owl-dots .owl-dot span{
+	background:#bcbaba;
+}
+
+.our-videos{
+	padding-bottom:50px;
+}
+
+.our-videos h2{
+	margin:0;
+	font-weight:400;
+}
+
+.videos-container{
+	padding-top:50px;
+}
+
+@media (max-width:991px){
+	.navbar-toggler-icon {
+		background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+	}
+	
+	.navbar{
+		justify-content:left!important;
+	}
+}
+
+@media (max-width:767px){
+	.provider-navigation .navbar-toggler{
+		position:static;
+	}
+	
+	.case-image{
+		margin:10px auto;
+		float:none;
+	}
+	
+	.case-content{
+		overflow:visibile;
+		padding-left:0;
+	}
+}
+
+@media (max-width:570px){
+	.main-buttons .btn{
+		width:100%;
+		margin:5px 0;
+	}
+	
+	.main-buttons .btn + .btn{
+		margin-left:0;
+	}
+}

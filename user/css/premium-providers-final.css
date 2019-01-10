@@ -1,0 +1,170 @@
+.provider-tabs{
+	text-align:center;
+	position:relative;
+}
+
+.provider-tabs a{
+	display:inline-block;
+	width:300px;
+	text-align:center;
+	font-size:16px;
+	color:#393a39;
+	background:#efeeee;
+	border:solid 1px #dde0df;
+	padding:20px 0;
+	border-radius:10px 10px 0 0;
+}
+
+.provider-tabs a.active{
+	background:#f5f5f5;
+	border-bottom:none;
+	color:#009fe3;
+	padding-bottom:21px;
+}
+
+.provider-paging{
+	text-align:center;
+	padding:15px 0;
+	background:#f5f5f5;
+	margin:0 -20px;
+	border-top:solid 1px #dde0df;
+	border-bottom:solid 1px #dde0df;
+	margin-top:-1px;
+}
+
+.provider-paging a{
+	display:inline-block;
+	width:22px;
+	height:22px;
+	line-height:22px;
+	color:#009fe3;
+	font-size:16px;
+	border-radius:100%;
+}
+
+.provider-paging a.active{
+	background:#009fe3;
+	color:#fff;
+}
+
+.provider-list{
+	padding:15px 0;
+}
+
+.provider-box{
+	margin-bottom:25px;
+}
+
+.provider-box-image{
+	height:150px;
+	position:relative;	
+	border-radius:10px 10px 0 0;
+	border-bottom:solid 2px #b81b39;
+}
+
+
+
+.red-box .provider-box-image{
+	border-bottom:solid 2px #b81b39;
+}	
+
+.blue-box .provider-box-image{
+	border-bottom:solid 2px #152c66;
+}
+
+.green-box .provider-box-image{
+	border-bottom:solid 2px #3dac6f;
+}
+
+.provider-logo{
+	position:absolute;
+	top:50%;
+	left:20px;
+	transform:translateY(-50%);
+	width:105px;
+	height:105px;
+	line-height:105px;
+	background:#fff;
+	border-radius:100%;
+	text-align:center;
+}
+
+.provider-box-content{
+	padding:10px;
+}
+
+.provider-box-content h2, .provider-box-content h3, .provider-box-content h4{
+	margin:0;
+	padding:0;
+	font-size:18px;
+}
+
+.provider-box-content h3{
+	font-size:16px;
+	color:#393a39;
+	margin-top:10px;
+}
+
+.provider-box-content .btn{
+	width:165px;
+	margin:10px 0;
+}
+
+.provider-box-content .btn:hover{
+	color:#fff;
+}
+
+.red-box .btn{
+	background:#b81b39;
+}
+
+.red-box h2{
+	color:#b81b39;
+}
+
+.blue-box .btn{
+	background:#152c66;
+}
+
+.blue-box h2{
+	color:#152c66;
+}
+
+.green-box .btn{
+	background:#3dac6f;
+}
+
+.green-box h2{
+	color:#3dac6f;
+}
+
+
+.provider-box-content h4{
+	font-size:14px;
+	margin-bottom:10px;
+}
+
+.provider-box-content .tag{
+	display:inline-block;
+	font-size:11px;
+	margin:0 0 5px 0;
+}
+
+
+@media (max-width:575px){
+	.provider-tabs a{
+		width:165px;
+	}
+}
+
+@media (max-width:424px){
+	.provider-tabs a{
+		width:125px;
+		font-size:12px;
+		padding:10px 0;
+	}
+	
+	.provider-tabs a.active{
+		padding-bottom:11px;
+	}
+}
