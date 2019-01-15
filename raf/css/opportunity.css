@@ -1,0 +1,145 @@
+.opportunity-content p {
+	font-size:16px;
+}
+
+.page-opportunity .more-btns{
+	display:block;
+	text-align:left;
+}
+
+.page-opportunity .product-dis p, .page-opportunity .see-more{
+	font-size:16px;
+}
+
+.related-opportunities h2.head{
+	margin:0;
+	padding:10px 0;
+	font-size:30px;
+	font-weight:700;
+}
+
+.badge-light-green{
+	background:#8ec549;
+}
+
+.related-opportunities .prdoduct-detail .badge-category{
+	position:static;
+}
+
+.page-opportunity .opportunities-box .product-logo{
+	position:static;
+	text-align:right;
+}
+
+.page-opportunity  .more-btns{
+	text-align:right;
+	margin:0;
+}
+
+.page-opportunity  .load-more .btn{
+	width:100%;
+}
+
+.page-opportunity  .btn.btn-apply{
+	width:100%;
+	font-size:30px;
+	font-weight:700;
+	height:auto;
+	padding:10px 0 15px 0;
+	border-radius:35px;
+}
+
+.page-opportunity  .opportunity-header{
+	border-bottom:solid 1px #d7d8d7;	
+	margin:-20px;
+	margin-bottom:20px;
+}
+
+.page-opportunity  .opportunity-logo{
+	text-align:center;
+	padding:50px 0;
+}
+
+.page-opportunity  .opportunity-border{
+	border-left:solid 1px #d7d8d7;
+}
+
+.page-opportunity  .opportunity-header-content{
+	padding:20px;
+}
+
+.page-opportunity.search-detail-section .opportunity-header .opportunities-box{
+	border:none;
+	padding:0;
+	margin:0;
+}
+
+.page-opportunity.search-detail-section .opportunity-header .opportunities-box .produuct-title h2{
+	font-size:30px;
+	font-weight:700;
+}
+
+.page-opportunity.search-detail-section .opportunity-header .opportunities-box small{
+	font-size:18px;
+}
+
+.page-opportunity  .opportunity-header-content .btn-primary{
+	border-color:#009fe3;
+	color:#fff;
+}
+
+.gray-box{
+	margin:20px 0;
+	padding:10px 20px;
+	background:#f4f5f6;
+	border:solid 1px #eceded;
+	border-radius:5px;
+	width:100%;
+}
+
+.gray-box .row{
+	margin-top:5px;
+	margin-bottom:5px;
+}
+
+.page-opportunity .share-icons{
+	padding:5px;
+	border-radius:5px;
+	background:#f4f5f6;
+	border:solid 1px #eceded;
+	text-align:center;
+	margin-top:10px;
+}
+
+.page-opportunity.search-detail-section .more-btns .btn{
+	margin:10px 0;
+	width:100%;
+}
+
+.share-icons label{
+	margin-bottom:10px;
+}
+
+.share-icons a{
+	display:inline-block;
+	width:32px;
+	height:32px;
+	background:url(../images/img-social-icons.jpg) no-repeat 0 0;
+	margin:0 1px;
+}
+
+.share-icons a.icon-twitter{
+	background-position:-32px 0;
+}
+
+.share-icons a.icon-gplus{
+	background-position:-64px 0;
+}
+
+.share-icons a.icon-pinterest{
+	background-position: -96px 0;
+}
+
+.share-icons a.icon-plus{
+	background-position: -128px 0;
+}

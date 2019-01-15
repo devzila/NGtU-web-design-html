@@ -1,0 +1,21 @@
+.opportunities-box{
+	border-bottom:solid 1px #dde0df;
+	padding-bottom:20px;
+	margin-bottom:20px;
+}
+
+.opportunities-box.last{
+	border-bottom:none;
+	margin-bottom:0;
+}
+
+.show-close-opp{
+	cursor:pointer;
+	font-size:16px;
+	text-align:center;
+	padding:7px 10px;
+	background:#eceded;
+	border:solid 1px #dde0df;
+	margin:20px 0;
+	border-radius:7px;
+}

@@ -1,0 +1,58 @@
+.raf-profile{
+	background:#fff;
+}
+
+.raf-profile .main-buttons .btn{
+	width:auto;
+	padding:0 25px;
+	background:#cd1733;
+}
+
+.raf-opportunities{
+	padding:20px 0;
+	background:#f5f5f5;
+}
+
+.raf-profile .case-studies{
+	margin-top:0;
+	background:none;
+	padding:25px 0;
+}
+
+
+.raf-profile .our-blogs{
+	background:#f5f5f5;
+	padding:25px 0;
+}
+
+.raf-navigation{
+	background:#002a55;
+	padding:7px 0;
+}
+
+.raf-navigation ul, .raf-navigation li{
+	margin:0;
+	padding:0;
+	list-style-type:none;
+}
+
+.raf-navigation li{
+	display:inline-block;
+	width:12.1%;
+	font-size:16px;
+	text-align:center;
+	vertical-align:top;
+}
+
+.raf-navigation li a{
+	color:#fff;
+	display:block;
+	padding:4px 0;
+	border-radius:5px;
+	line-height:normal;
+}
+
+.raf-navigation li a:hover, .raf-navigation li a.current{
+	background:#1a4066;
+	border-radius:5px;
+}
